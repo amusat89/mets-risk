@@ -42,7 +42,7 @@ st.title("🏥 Metabolic Syndrome Prediction")
 st.markdown("Predict metabolic syndrome risk using clinical measurements")
 
 # Add a banner image for visual appeal
-st.image("https://via.placeholder.com/700x150/ADD8E6/000000?text=Metabolic+Health+Banner", 
+st.image("♥️", 
          caption="Understanding your metabolic health is key to well-being.")
 
 # Input form
@@ -84,7 +84,7 @@ with st.expander("Advanced Blood Tests"):
         input_data['LBDAPBSI'] = st.slider("Apolipoprotein B", 0.1, 2.0, 1.0)
         input_data['LBXHSCRP'] = st.slider("C-reactive Protein", 0.1, 10.0, 1.0)
         input_data['LBDINSI'] = st.slider("Insulin", 10.0, 300.0, 60.0)
-        input_data['eLDL_Trig'] = st.slider("LDL/Trig Ratio", 0.1, 5.0, 0.5)
+        input_data['eLDL_Trig'] = st.slider("Estimated LDL TG", 0.1, 5.0, 0.5)
 
 # Additional measurements
 with st.expander("Other Measurements"):
