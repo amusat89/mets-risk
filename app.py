@@ -44,7 +44,8 @@ st.markdown("Predict metabolic syndrome risk using clinical measurements")
 # Add a banner image for visual appeal
 
 heart = "heart.png"
-st.image(heart, 
+st.image(heart,
+         width = 250,
          caption="Understanding your metabolic health is key to well-being.")
 
 # Input form
