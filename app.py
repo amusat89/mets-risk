@@ -45,7 +45,7 @@ st.markdown("Predict metabolic syndrome risk using clinical measurements")
 
 heart = "/Users/saheed/Downloads/Gemini_Generated_Image_hfkjedhfkjedhfkj.png"
 st.image(heart, 
-         caption="♥️ Understanding your metabolic health is key to well-being.")
+         caption="Understanding your metabolic health is key to well-being.")
 
 # Input form
 st.header("Patient Clinical Data")
