@@ -43,7 +43,7 @@ st.markdown("Predict metabolic syndrome risk using clinical measurements")
 
 # Add a banner image for visual appeal
 
-heart = "/Users/saheed/Downloads/Gemini_Generated_Image_hfkjedhfkjedhfkj.png"
+heart = "heart.png"
 st.image(heart, 
          caption="Understanding your metabolic health is key to well-being.")
 
