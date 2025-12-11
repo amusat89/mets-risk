@@ -42,8 +42,10 @@ st.title("🏥 Metabolic Syndrome Prediction")
 st.markdown("Predict metabolic syndrome risk using clinical measurements")
 
 # Add a banner image for visual appeal
-st.image("♥️", 
-         caption="Understanding your metabolic health is key to well-being.")
+
+heart = "/Users/saheed/Downloads/Gemini_Generated_Image_hfkjedhfkjedhfkj.png"
+st.image(heart, 
+         caption="♥️ Understanding your metabolic health is key to well-being.")
 
 # Input form
 st.header("Patient Clinical Data")
